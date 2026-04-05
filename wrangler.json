@@ -1,0 +1,12 @@
+{
+  "account": {
+    "id": "YOUR_ACCOUNT_ID",
+    "email": "YOUR_EMAIL_ADDRESS"
+  },
+  "routes": [
+    {
+      "pattern": "example.com/*",
+      "email": "YOUR_ROUTE_EMAIL"
+    }
+  ]
+}
