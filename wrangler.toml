@@ -1,0 +1,15 @@
+# Cloudflare Workers Configuration
+
+# This is your wrangler.toml file for the Cloudflare Workers API backend.
+name = "your-worker-name"
+type = "javascript"
+
+[env.production]
+binding = { API_URL = "https://api.example.com" }
+
+[account]
+# Replace with your Cloudflare Account ID
+id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+[compatibility_date]
+date = "2026-04-05"
